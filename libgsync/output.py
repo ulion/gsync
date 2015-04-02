@@ -10,8 +10,8 @@ import os, sys, inspect, re, codecs
 from datetime import datetime
 
 # Make stdout unbuffered.
-sys.stdout = (codecs.getwriter(sys.stdout.encoding))\
-    (os.fdopen(sys.stdout.fileno(), "w", 0), "replace")
+#sys.stdout = (codecs.getwriter(sys.stdout.encoding))\
+#    (os.fdopen(sys.stdout.fileno(), "w", 0), "replace")
 
 
 class Channel(object):
